@@ -1,0 +1,118 @@
+/* Estilos globales */
+    body {
+      font-family: Arial, sans-serif;
+      margin: auto;
+      padding: auto;
+      background-color:yellow ;width: 1000px;height: 600px;}
+  h1{color:red;text-align: center;width: auto;height: 80px;
+    }
+  h2{color:orangered}
+/*configuracion de la imagen*/
+    img{width: 300 px;px;height: 300px;align:left;
+      border-radius: 150px;border:3px,yellow solid;
+    }
+     /* Contenedor del formulario */
+    .login-container {
+      width: 300px;
+      margin: 100px auto;
+      background-color:#f0b13dd8;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Títulos */
+    .login-title {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    /* Campos de entrada */
+    .form-input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccccccd7;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    /* Botón de inicio de sesión */
+    .boton-dec {
+        background-color:orangered; /* Color de fondo */
+        color: white; /* Color del texto */
+        padding: 10px 20px; /* Relleno interior */
+        text-align: center; /* Alineación del texto */
+        text-decoration: none; /* Eliminar subrayado */
+        display: inline-block; /* Permite aplicar padding */
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer; /* Cursor de mano al pasar por encima */
+        border-radius: 8px; /* Bordes redondeados */
+    }
+
+    .login-btn:hover {
+      background-color: #555;
+    }
+
+    /* Enlaces adicionales */
+    .additional-links {
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .additional-links a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    .additional-links a:hover {
+      text-decoration: underline;
+    }
+    <style>
+      .imagen-izquierda {
+        float: left;
+        margin-right: 2px; /* Espacio a la derecha de la imagen */
+      }
+    </style>
+    <img src="tu_imagen.jpg" class="imagen-izquierda">
+
+    /* Encabezado */
+    header {
+      background-color: yellow;
+      /*background-color:yellow;*/ Color Sólido
+      color: red;
+      padding: 200px;
+      text-align:center;width: 200px;height: 100px;
+    }
+    /* Barra de navegación */
+    nav {
+      background-color:yellow;
+      padding: 5px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align:right;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right:1px;float:right;
+    }
+
+    nav ul li a {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 10px;border:3px,rgba(18, 69, 136, 0.904) solid;
+      color:black;height:25px;width:auto;
+      text-decoration: none;background-color:rgb(50, 151, 209)
+      ;float:right
+      ;margin:1px;}
+    
+
+section{margin:1px; background-color:yellow;
+text-align:center;color:orangered;
+height:500px;width: 33.1%;float:left;img{width: 200px;height: 200px;border-radius: 10px;border:3px,rgba(18, 69, 136, 0.904) solid;}}

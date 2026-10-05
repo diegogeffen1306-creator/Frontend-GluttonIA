@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="CSS/Estilos_Registro_Menú.css">
+</head>
+<body>
+    
+    <header>
+        <h1>REGISTRO MENÚ</h1>
+    </header>
+  
+    <nav>
+        <a href="Menú.html">
+            <button>Volver</button>
+        </a>
+    </nav>
+
+    <div class="contact-container">
+            <h2>INGRESE AQUI LA INFORMACION PARA CREAR SU MENÚ</h2>
+        <form action="enviar_formulario.php" method="POST">
+            <div class="form-group">
+            <label for="nombre"><B>Nombre del Plato</B></label>
+            <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="form-group">
+            <label for="email"><B>Fecha y Hora de Creación</B></label>
+            <input type="datetime-local" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="form-group">
+            <label for="asunto"><B>Categoria</B></label>
+            <input type="text" id="asunto" name="asunto" required>
+            </div>
+
+            <div class="form-group">
+            <label for="asunto"><B>Responsable Creación</B></label>
+            <input type="text" id="asunto" name="asunto" required>
+            </div>
+
+            <div class="form-group">
+            <label for="mensaje"><B>Ingrediente</B>s</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            </div>
+            <button type="submit">Enviar mensaje "</button>
+        </form>
+    </div>
+</body>
+</html>

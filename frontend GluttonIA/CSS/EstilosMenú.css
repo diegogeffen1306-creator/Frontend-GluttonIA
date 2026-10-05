@@ -1,0 +1,71 @@
+body {
+    
+      font-family: Arial, sans-serif;
+      margin: auto;
+      padding: auto;
+      background: linear-gradient(to top,#2cd860ab,green) ;width: 1000px;height: 600px;
+    }
+h1{color:white;text-align:center;width: auto;height: 150px;
+}
+img{width: 100px;height: 100px;align:top;
+  border-radius:50px;border:3px,green solid;
+}
+<style>
+      .imagen-izquierda {
+        float: left;
+        margin-right: 2px; /* Espacio a la derecha de la imagen */
+      }
+    </style>
+    <img src="tu_imagen.jpg" class="imagen-izquierda">
+
+   /* Encabezado */
+   header {
+    background-color: #2cd860ab;
+    color: hsl(240, 40%, 98%);
+    padding: 20px;
+    text-align: center;
+  }
+
+.section h2 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* Contenido */
+.container {
+    text-align: center;
+    max-width: 400px;
+    height:400px;
+    margin: 10px auto;
+    padding: 20px;
+    background: linear-gradient(to top,#2cd860ab,green);
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(136, 21, 21, 0.76);
+  }
+  nav {
+    background-color: #444;
+    padding: 10px;
+  }
+.boton-dec {
+        background: linear-gradient(to top,#2cd860ab,green); /* Color de fondo */
+        color:white; /* Color del texto */
+        padding: 10px 20px; /* Relleno interior */
+        text-align: center; /* Alineación del texto */
+        text-decoration: none; /* Eliminar subrayado */
+        display: inline-block; /* Permite aplicar padding */
+        height: 60px;width: 90px;
+        margin:10px;
+        cursor: pointer; /* Cursor de mano al pasar por encima */
+        border-radius: 10px;border:3px,rgb(54, 231, 30) solid; /* Bordes redondeados */
+        box-shadow: 0 0 10px rgba(136, 21, 21, 0.76);
+        float:left;
+    }
+    
+footer {
+      height: 100px;;width:auto;
+      color:white;
+      padding: 20px;
+      text-align:center;
+    }
+  
